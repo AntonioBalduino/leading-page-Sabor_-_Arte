@@ -135,6 +135,7 @@ header div a:hover{
 #sec-2{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 #sec-2 div.menu{
@@ -162,6 +163,36 @@ header div a:hover{
     height: 150px;
     object-position: center;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+
+#sec-2 div.menus div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 23px;
+}
+
+#sec-2 div.menus div span{
+    color: #F59E0B;
+    font-weight: bold;
+}
+
+#sec-2 div.menus div h4{
+    font-size: 20px;
+}
+
+
+/* SECTION 3 */
+#sec-3{
+    background-color: #111111;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 
