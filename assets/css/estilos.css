@@ -51,7 +51,6 @@ header nav ul li a::after{
 }
 header nav ul li a:hover::after{
     width: 100%;
-
 }
 
 header div a{
@@ -195,4 +194,21 @@ header div a:hover{
     width: 100%;
 }
 
+#sec-3 img{
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#sec-3 div.div_2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#sec-3 div.div_2 .content-1 div.sobre_nos{
+    display: flex;
+    align-items: center;
+}
 
