@@ -208,6 +208,7 @@ header div a:hover{
 
 #sec-3 img{
     width: 45%;
+    height: 270px;
     border-radius: 10px;
     object-fit: cover;
     object-position: center;
@@ -299,4 +300,49 @@ header div a:hover{
 
 #sec-3 div.div_2 .content-2 div p{
     color: #ffffffe0;
+}
+
+
+/*SECTION - 4 GALERY*/
+#galery{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#galery .galery{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#galery .galery h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#galery .galery span{
+    color: #F59E0B;
+    font-weight: bold;
+}
+
+#galery div.imagens{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(min(100%, 260px), 1fr)
+    );
+    padding: 5px 20px;
+}
+
+#galery div.imagens div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#galery div.imagens div img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
 }
