@@ -14,16 +14,19 @@ header{
     align-items: center;
     background-color: #111111;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px 20px;
+    width: 100%;
 }
 
 header h2{
-    size: 30px;
+    font-size: 26px;
 }
 
 header span{
     color: #D97706;
+    font-size: larger;
 }
+
 
 header nav ul {
     display: flex;
@@ -83,6 +86,7 @@ header div a:hover{
     height: 28vw;
     color: #ffffff;
     padding: 3vw 20px;
+    width: 100%;
     
 }
 
@@ -384,4 +388,196 @@ header div a:hover{
     to{
         background-color: rgb(35, 201, 35);
     }
+}
+
+
+#avaliacoes{
+    background-color: #111111;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#avaliacoes .avaliacoes{
+    display: flex;
+    justify-content: center;
+    /*margin-top: 20px;*/
+    gap: 20px;
+}
+
+#avaliacoes .avaliacoes h2{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#avaliacoes .avaliacoes span{
+    color: #D97706;
+    font-weight: bold;
+}
+
+#avaliacoes .paragrafo{
+    width: 540px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#avaliacoes .imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/*
+#avaliacoes .imagem div.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+*/
+
+#avaliacoes .imagem div.img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 15px;
+}
+
+#avaliacoes div.imagem div.content{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+#avaliacoes div.imagem div.content .estrelas{
+    color: #F59E0B;
+}
+
+#avaliacoes div.imagem div.content .estrelas i{
+    margin: 0 1px;
+}
+
+/*PENULTIMA SECTION*/
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    color: #ffffff;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 30px;
+}
+
+#menu .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+
+#menu .logo h2 span{
+    color: #D97706;
+}
+
+#menu .logo span{
+    letter-spacing: 2px;
+}
+
+#menu .menus ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+#menu .menus ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#menu .menus ul li a:hover{
+    color: #D97706;
+    transition: 0.5s;
+}
+
+#menu .sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu .sign p{
+    font-size: 17px;
+}
+
+#menu .sign nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+#menu .sign nav p{
+    background-color: #ffffff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .sign nav p a{
+    color: #111111;
+    font-size: 25px;
+}
+
+/*
+#menu .sign nav p a:hover{
+    color: #D97706;
+    transition: 0.3s;
+}
+*/
+
+#menu .sign nav p a.facebook:hover{
+    color: rgb(34, 34, 201);
+    transition: 0.5s;
+}
+#menu .sign nav p a.instagram:hover{
+    color: rgb(201, 20, 20);
+    transition: 0.5s;
+}
+#menu .sign nav p a.youtube:hover{
+    color: red;
+    transition: 0.5s;
+}
+#menu .sign nav p a.whatsapp:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    color: #ffffff;
+    padding: 15px 20px;
+    align-items: center;
+}
+footer p{
+    margin: 0;
 }
