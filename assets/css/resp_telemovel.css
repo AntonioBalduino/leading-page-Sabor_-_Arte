@@ -65,6 +65,115 @@
 
 
     /*TERCEIRA SECTION*/
-    #sec-3{}
+    #sec-3{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 
+    #sec-3 img{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #sec-3 div.div_2{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    #sec-3 div.div_2 .content-1{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #sec-3 div.div_2 div.content-2{
+        width: 100%;
+        display: inline-block;
+        flex-direction: row;
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    #sec-3 div.div_2 div.content-2 div{
+        margin-top: 5px;
+    }
+
+
+    /*GALERIA OUTRA SECTION*/
+    #galery div.imagens{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #galery div.imagens div img{
+        width: 165px;
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+
+    /*AVALIACOES OUTRA SECTION*/
+    #avaliacoes div.paragrafo{
+        width: 100%;
+        font-size: 13px;
+    }
+
+    /*PENULTIMA SECTION*/
+    #menu{
+        width: 100%;
+        padding: 15px;
+    }
+    #menu div.logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    #menu div.logo h2{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+
+    #menu nav.menus {
+        display: none;
+    }
+
+    #menu div.sign p.siga{
+        display: none;
+    }
+
+    #menu div.sign nav p{
+        margin: 0;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu div.sign p i{
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    /*FOOTER*/
+    footer{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    
 }
