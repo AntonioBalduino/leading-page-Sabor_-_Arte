@@ -1,0 +1,70 @@
+@media (max-width: 800px) {
+    
+    header{
+        width: 100%;
+    }
+    header h2{
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    header h2 span{
+        font-size: 35px;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header div{
+        display: none;
+    }
+
+    /*PRIMEIRA SECTION*/
+    #sec-1{
+        width: 100%;
+        height: auto;
+        padding: 5px 10px;
+    }
+    #sec-1 p{
+        margin: 0;
+    }
+
+    #sec-1 div{
+        margin: 15px 0;
+    }
+
+    #sec-1 div a{
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    /*SECTIN 2*/
+    #sec-2 div.menus {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+    }
+    #sec-2 div.menus div img{
+        width: 170px;
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #sec-2 div.menus div{
+        line-height: 6px;
+        font-size: 15px;
+    }
+    #sec-2 div.menus div h4{
+        font-weight: bold;
+    }
+
+
+    /*TERCEIRA SECTION*/
+    #sec-3{}
+
+}
